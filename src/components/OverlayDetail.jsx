@@ -2,7 +2,6 @@ import React from 'react';
 import EmailList from './EmailList';
 import PhoneNumberList from './PhoneNumberList';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MdContentCopy } from "react-icons/md";
 
 const OverlayDetail = ({ website, onClose }) => {
   return (
@@ -13,11 +12,11 @@ const OverlayDetail = ({ website, onClose }) => {
           animate={{ x: 0 }}
           exit={{ x: '100%' }}
           transition={{ type: 'tween', duration: 0.3 }}
-          className="w-1/3 h-full bg-white border-l border-gray-200 p-6 overflow-y-auto relative"
+          className="fixed top-0 right-0 w-1/3 h-full bg-white border-l border-gray-200 p-6 overflow-y-auto shadow-lg z-50"
         >
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 text-gray-500 hover:text-gray-800"
+            className="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-2xl font-bold"
             aria-label="Close detail panel"
           >
             ✕

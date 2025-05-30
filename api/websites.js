@@ -1,4 +1,5 @@
 const { MongoClient } = require("mongodb");
+require("dotenv").config();
 
 const MONGO_URI = process.env.MONGO_URI;
 const DB_NAME = process.env.MONGO_DB;

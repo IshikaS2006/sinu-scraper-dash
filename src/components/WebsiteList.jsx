@@ -3,7 +3,7 @@ import WebsiteCard from './WebsiteCard';
 import OverlayDetail from './OverlayDetail';
 import ModalPopup from './ModalPopup';
 
-const WebsitesList = ({ websites }) => {
+const WebsiteList = ({ websites, onSplitClick }) => {
   const [selectedWebsite, setSelectedWebsite] = useState(null);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
@@ -15,9 +15,11 @@ const WebsitesList = ({ websites }) => {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
-
   const handleSplitClick = (website) => {
     setSelectedWebsite(website);
+    if (onSplitClick) {
+      onSplitClick(website);
+    }
   };
 
   const handleClose = () => {
@@ -47,4 +49,4 @@ const WebsitesList = ({ websites }) => {
   );
 };
 
-export default WebsitesList;
+export default WebsiteList;

@@ -35,8 +35,7 @@ const OverlayDetail = ({ website, onClose }) => {
 
           <div>
             <h3 className="font-semibold mb-2">Phone Numbers</h3>
-            {/* ✅ Fixed prop name */}
-            <PhoneNumberList phones={website.phone || []} />
+            <PhoneNumberList phoneNumbers={website.phoneNumbers || []} />
           </div>
         </motion.div>
       )}

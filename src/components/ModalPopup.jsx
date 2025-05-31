@@ -37,8 +37,7 @@ const ModalPopup = ({ website, onClose }) => {
             </div>
             <div>
               <h3 className="font-semibold mb-2">Phone Numbers</h3>
-              {/* Fixed prop name to 'phones' */}
-              <PhoneNumberList phones={website.phone || []} />
+              <PhoneNumberList phoneNumbers={website.phoneNumbers || []} />
             </div>
           </motion.div>
         </motion.div>

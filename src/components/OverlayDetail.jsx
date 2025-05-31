@@ -30,12 +30,12 @@ const OverlayDetail = ({ website, onClose }) => {
 
           <div className="mb-4">
             <h3 className="font-semibold mb-2">Emails</h3>
-            <EmailList emails={website.emails || []} />
+            <EmailList email={website.email || []} />
           </div>
 
           <div>
             <h3 className="font-semibold mb-2">Phone Numbers</h3>
-            <PhoneNumberList phoneNumbers={website.phoneNumbers || []} />
+            <PhoneNumberList phone={website.phone || []} />
           </div>
         </motion.div>
       )}

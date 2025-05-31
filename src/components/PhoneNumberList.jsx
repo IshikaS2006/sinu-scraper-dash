@@ -1,10 +1,21 @@
 import React, { useState } from 'react';
 import { MdContentCopy } from "react-icons/md";
 
-const PhoneNumberList = ({ phoneNumbers }) => {
+const PhoneNumberList = ({ phone }) => {
   const [copiedIndex, setCopiedIndex] = useState(null);
 
-  if (!phoneNumbers.length) {
+  // If phones is a string, split it into an array
+  const phonesArray = Array.isArray(phone)
+    ? phone
+    : (typeof phone === 'string' && phone.trim() !== '')
+      ? phone.includes(',')
+        ? phone.split(',').map(p => p.trim())
+        : phone.includes(';')
+          ? phone.split(';').map(p => p.trim())
+          : phone.split(/\s+/).map(p => p.trim()) // split by spaces if no comma/semicolon
+      : [];
+
+  if (phonesArray.length === 0) {
     return <p className="text-gray-500">No phone numbers available.</p>;
   }
 
@@ -25,7 +36,7 @@ const PhoneNumberList = ({ phoneNumbers }) => {
 
   return (
     <ul className="list-disc list-inside text-green-700 space-y-1">
-      {phoneNumbers.map((phone, index) => (
+      {phonesArray.map((phone, index) => (
         <li key={index} className="flex items-center justify-between">
           <span>{phone}</span>
           <button

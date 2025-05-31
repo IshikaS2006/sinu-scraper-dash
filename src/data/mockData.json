@@ -1,38 +1,514 @@
 [
-  {
-    "id": 1,
-    "name": "www.xyz.com",
-    "emails": ["contact@xyz.com", "info@xyz.com", "support@xyz.com", "sales@xyz.com", "info@xyz.com", "support@xyz.com", "sales@xyz.com"],
-    "phoneNumbers": ["4372647829", "+1-555-0123", "+1-555-0456", "+1-555-0789"]
-  },
-  {
-    "id": 2,
-    "name": "www.example.com",
-    "emails": ["hello@example.com", "admin@example.com"],
-    "phoneNumbers": ["9876543210", "+1-555-1234"]
-  },
-  {
-    "id": 3,
-    "name": "www.sample.org",
-    "emails": ["contact@sample.org"],
-    "phoneNumbers": ["5551234567"]
-  },  {
-    "id": 4,
-    "name": "www.omg.com",
-    "emails": ["contact@xyz.com", "info@xyz.com", "support@xyz.com", "sales@xyz.com"],
-    "phoneNumbers": ["4372647829", "+1-555-0123", "+1-555-0456", "+1-555-0789"]
-  },
-  {
-    "id": 5,
-    "name": "www.fine.com",
-    "emails": ["hello@example.com", "admin@example.com"],
-    "phoneNumbers": ["9876543210", "+1-555-1234"]
-  },
-  {
-    "id": 6,
-    "name": "www.check.org",
-    "emails": ["contact@sample.org"],
-    "phoneNumbers": ["5551234567"]
-  }
-
+    {
+        "url": "https://sinuadmin.sinusoid.in/",
+        "name": "https://sinuadmin.sinusoid.in/",
+        "email": "sinusoid@st.niituniversity.in",
+        "phone": "+919717933373",
+        "phones": [
+            "+919717933373",
+            "+918126211682",
+            "916940929029",
+            "919473517303",
+            "06079190043",
+            "06079190044",
+            "919220220639",
+            "916752154215",
+            "917449855572",
+            "917809379268",
+            "919955595357",
+            "06625897462",
+            "919638077506",
+            "918466223185"
+        ],
+        "emails": [
+            "sinusoid@st.niituniversity.in"
+        ],
+        "otherLinks": [
+            {
+                "url": "https://www.linkedin.com/company/sinusoid",
+                "text": "",
+                "matchedKeywords": [
+                    "company"
+                ],
+                "_id": "68386268dab8f7f7de3fd5b4"
+            }
+        ],
+        "savedAt": "2025-05-29T13:34:32.845Z",
+        "_id": "68386268dab8f7f7de3fd5b3"
+    },
+    {
+        "url": "https://sinusoid.in/",
+        "name": "https://sinusoid.in/",
+        "email": "sinusoid@st.niituniversity.in",
+        "phone": "+919717933373",
+        "phones": [
+            "+919717933373",
+            "+918126211682",
+            "916940929029",
+            "919473517303",
+            "06079190043",
+            "06079190044",
+            "919220220639",
+            "916752154215",
+            "917449855572",
+            "917809379268",
+            "919955595357",
+            "06625897462",
+            "919638077506",
+            "918466223185",
+            "+918898924889",
+            "+919311602436",
+            "06236544021",
+            "06096107617",
+            "06055967735",
+            "06590029007",
+            "06595011870",
+            "06583042859",
+            "06297197868"
+        ],
+        "emails": [
+            "sinusoid@st.niituniversity.in"
+        ],
+        "otherLinks": [
+            {
+                "url": "https://sinusoid.in/about",
+                "text": "About",
+                "matchedKeywords": [
+                    "about",
+                    "/about"
+                ],
+                "_id": "683862a1dab8f7f7de3fd5b8"
+            },
+            {
+                "url": "https://sinusoid.in/sponsor",
+                "text": "Sponsor",
+                "matchedKeywords": [
+                    "sponsor"
+                ],
+                "_id": "683862a1dab8f7f7de3fd5b9"
+            },
+            {
+                "url": "https://sinusoid.in/#",
+                "text": "CONTACT US",
+                "matchedKeywords": [
+                    "contact",
+                    "contact us"
+                ],
+                "_id": "683862a1dab8f7f7de3fd5ba"
+            },
+            {
+                "url": "https://sinusoid.in/contactus",
+                "text": "Contact Us",
+                "matchedKeywords": [
+                    "contact",
+                    "contact us",
+                    "contactus",
+                    "/contact"
+                ],
+                "_id": "683862a1dab8f7f7de3fd5bb"
+            },
+            {
+                "url": "https://in.linkedin.com/company/siNUsoid",
+                "text": "",
+                "matchedKeywords": [
+                    "company"
+                ],
+                "_id": "683862a1dab8f7f7de3fd5bc"
+            },
+            {
+                "url": "https://sinusoid.in/privacypolicy",
+                "text": "| Privacy Policy",
+                "matchedKeywords": [
+                    "privacy",
+                    "policy",
+                    "/privacy"
+                ],
+                "_id": "683862a1dab8f7f7de3fd5bd"
+            }
+        ],
+        "savedAt": "2025-05-29T13:35:29.916Z",
+        "_id": "683862a1dab8f7f7de3fd5b7"
+    },
+    {
+        "url": "https://sinuadmin.sinusoid.in/",
+        "name": "https://sinuadmin.sinusoid.in/",
+        "email": "sinusoid@st.niituniversity.in",
+        "phone": "‪+919717933373‬",
+        "phones": [
+            "‪+919717933373‬",
+            "‪+918126211682‬",
+            "916940929029",
+            "919473517303",
+            "06079190043",
+            "06079190044",
+            "919220220639",
+            "916752154215",
+            "917449855572",
+            "917809379268",
+            "919955595357",
+            "06625897462",
+            "919638077506"
+        ],
+        "emails": [
+            "sinusoid@st.niituniversity.in"
+        ],
+        "otherLinks": [
+            {
+                "url": "https://www.linkedin.com/company/sinusoid",
+                "text": "",
+                "matchedKeywords": [
+                    {
+                        "code": "function Array() { [native code] }"
+                    }
+                ],
+                "_id": "6838498986250c50e2bc4a25"
+            },
+            {
+                "url": "https://www.linkedin.com/company/sinusoid",
+                "text": "",
+                "matchedKeywords": [
+                    {
+                        "code": "function Array() { [native code] }"
+                    }
+                ],
+                "_id": "6838498f86250c50e2bc4a29"
+            }
+        ],
+        "savedAt": "2025-05-29T11:48:31.068Z",
+        "_id": "6838498986250c50e2bc4a24"
+    },
+    {
+        "url": "chrome://newtab/",
+        "name": "chrome://newtab/",
+        "email": "",
+        "phone": "",
+        "phones": [],
+        "emails": [],
+        "otherLinks": [],
+        "savedAt": "2025-05-30T11:12:52.329Z",
+        "_id": "683992b311154c3d041bcd7a"
+    },
+    {
+        "url": "https://www.myntra.com/",
+        "name": "https://www.myntra.com/",
+        "email": "support@myntra.com",
+        "phone": "+918061561999",
+        "phones": [
+            "+918061561999",
+            "917485386390"
+        ],
+        "emails": [
+            "support@myntra.com"
+        ],
+        "otherLinks": [
+            {
+                "url": "https://www.myntra.com/contactus",
+                "text": "Contact Us",
+                "matchedKeywords": [
+                    "contact",
+                    "contact us",
+                    "contactus",
+                    "/contact"
+                ],
+                "_id": "6839940a11154c3d041bcd80"
+            },
+            {
+                "url": "https://www.myntra.com/my/address",
+                "text": "Saved Addresses",
+                "matchedKeywords": [
+                    "address"
+                ],
+                "_id": "6839940a11154c3d041bcd81"
+            },
+            {
+                "url": "https://www.myntra.com/mens-apparel?f=Brand%3AADRO%2CAUSK%2CBEAT%20LONDON%20by%20PEPE%20JEANS%2CBULLMER%2CBeing%20Human%2CBene%20Kleed%2CBene%20Kleed%20Plus%2CBewakoof%2CBewakoof%20AIR%2CBewakoof%20Heavy%20Duty%2CBewakoof%20Plus%2CBeyoung%2CBushirt%2CCampus%20Sutra%2CCrazybee%20Tshirt%2CCrazymonk%2CDENIMLOOK%2CDENNISON%2CDEVOILER%2CDennis%20Lingo%2CDollar%2CDollar%20Ultra%2CEnglish%20Navy%2CFBAR%2CFUBAR%2CFlying%20Machine%2CForce%20NXT%2CFree%20Authority%2CFreehand%20by%20The%20Indian%20Garage%20Co%2CGO%20DEVIL%2CGRIFFEL%2CHIGHLANDER%2CHOUSE%20OF%20MAHNOTS%2CHancock%2CHardsoda%20by%20The%20Indian%20Garage%20Co%2CHigh%20Star%2CHubberholme%2CINFERNO%2CIVOC%2CIVOC%20Plus%2CInddus%2CIndian%20Terrain%2CJack%20%26%20Jones%2CKETCH%2CKISAH%20PLUS%2CKotty%2CLA%20MILANO%2CLOCOMOTIVE%2CLUX%20VENUS%2CLee%2CLeotude%2CLevis%2CLux%20Cottswool%2CMASCLN%20SASSAFRAS%2CManiac%2CMarks%20%26%20Spencer%2CNEVER%20NEUD%2CNOBERO%2CPAUL%20STREET%2CPepe%20Jeans%2CPowerlook%2CRARE%20RABBIT%2CRIGS%20AND%20RAGS%2CRaymond%2CRed%20Tape%2CSHRESTHA%20BY%20VASTRAMAY%2CSILISOUL%2CSLOWLORIS%2CSPYKAR%2CSTI%2CSWAGG%20INDIA%2CSanwara%2CSee%20Designs%2CSnitch%2CStyle%20Quotient%2CStyli%2CSweet%20Dreams%2CTHE%20BEAR%20HOUSE%2CTHE%20BEETEL%20HOUSE%2CThe%20Indian%20Garage%20Co%2CThe%20Indian%20Garage%20Co.%20X%20Luxe%2CThe%20Veshti%20Company%2CThomas%20Scott%2CTurtle%2CU.S.%20Polo%20Assn.%2CU.S.%20Polo%20Assn.%20Denim%20Co.%2CU.S.%20Polo%20Assn.%20Tailored%2CURBAN%20SCOTTISH%2CUrbano%20Fashion%2CUrbano%20Plus%2CVALEN%20CLUB%2CVASTRADO%2CVASTRAMAY%20PLUS%2CVEIRDO%2CVeBNoR%2CWOOSTRO%2CWrangler%2Cbummer%3A%3ACategories%3ACo-Ords%2CJackets%2CJeans%2CShirts%2CShorts%2CTrack%20Pants%2CTrousers%2CTshirts&rawQuery=mens%20apparel&rf=Discount%20Range%3A75.0_100.0_75.0%20TO%20100.0",
+                "text": "",
+                "matchedKeywords": [
+                    "company"
+                ],
+                "_id": "6839940a11154c3d041bcd82"
+            },
+            {
+                "url": "https://www.myntra.com/grooming?f=Brand%3ABeardhood%2CBombay%20Shaving%20Company%2CFoolzy%2CTHE%20MAN%20COMPANY%2CUstraa&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0",
+                "text": "",
+                "matchedKeywords": [
+                    "company"
+                ],
+                "_id": "6839940a11154c3d041bcd83"
+            },
+            {
+                "url": "https://careers.myntra.com/",
+                "text": "Careers",
+                "matchedKeywords": [
+                    "careers",
+                    "/careers"
+                ],
+                "_id": "6839940a11154c3d041bcd84"
+            },
+            {
+                "url": "https://www.myntra.com/faqs",
+                "text": "FAQ",
+                "matchedKeywords": [
+                    "faq"
+                ],
+                "_id": "6839940a11154c3d041bcd85"
+            },
+            {
+                "url": "https://www.myntra.com/termsofuse",
+                "text": "Terms Of Use",
+                "matchedKeywords": [
+                    "terms"
+                ],
+                "_id": "6839940a11154c3d041bcd86"
+            },
+            {
+                "url": "https://www.myntra.com/faqs#shipping",
+                "text": "Shipping",
+                "matchedKeywords": [
+                    "faq"
+                ],
+                "_id": "6839940a11154c3d041bcd87"
+            },
+            {
+                "url": "https://www.myntra.com/faqs#cancel",
+                "text": "Cancellation",
+                "matchedKeywords": [
+                    "faq"
+                ],
+                "_id": "6839940a11154c3d041bcd88"
+            },
+            {
+                "url": "https://www.myntra.com/faqs#returns",
+                "text": "Returns",
+                "matchedKeywords": [
+                    "faq"
+                ],
+                "_id": "6839940a11154c3d041bcd89"
+            },
+            {
+                "url": "https://www.myntra.com/privacypolicy",
+                "text": "Privacy policy",
+                "matchedKeywords": [
+                    "privacy",
+                    "policy",
+                    "/privacy"
+                ],
+                "_id": "6839940a11154c3d041bcd8a"
+            },
+            {
+                "url": "https://www.flipkart.com/",
+                "text": "A Flipkart company",
+                "matchedKeywords": [
+                    "company"
+                ],
+                "_id": "6839940a11154c3d041bcd8b"
+            },
+            {
+                "url": "https://www.myntra.com/contactus",
+                "text": "Contact Us",
+                "matchedKeywords": [
+                    "contact",
+                    "contact us",
+                    "contactus",
+                    "/contact"
+                ],
+                "_id": "6839940e11154c3d041bcd9a"
+            },
+            {
+                "url": "https://www.myntra.com/my/address",
+                "text": "Saved Addresses",
+                "matchedKeywords": [
+                    "address"
+                ],
+                "_id": "6839940e11154c3d041bcd9b"
+            },
+            {
+                "url": "https://www.myntra.com/mens-apparel?f=Brand%3AADRO%2CAUSK%2CBEAT%20LONDON%20by%20PEPE%20JEANS%2CBULLMER%2CBeing%20Human%2CBene%20Kleed%2CBene%20Kleed%20Plus%2CBewakoof%2CBewakoof%20AIR%2CBewakoof%20Heavy%20Duty%2CBewakoof%20Plus%2CBeyoung%2CBushirt%2CCampus%20Sutra%2CCrazybee%20Tshirt%2CCrazymonk%2CDENIMLOOK%2CDENNISON%2CDEVOILER%2CDennis%20Lingo%2CDollar%2CDollar%20Ultra%2CEnglish%20Navy%2CFBAR%2CFUBAR%2CFlying%20Machine%2CForce%20NXT%2CFree%20Authority%2CFreehand%20by%20The%20Indian%20Garage%20Co%2CGO%20DEVIL%2CGRIFFEL%2CHIGHLANDER%2CHOUSE%20OF%20MAHNOTS%2CHancock%2CHardsoda%20by%20The%20Indian%20Garage%20Co%2CHigh%20Star%2CHubberholme%2CINFERNO%2CIVOC%2CIVOC%20Plus%2CInddus%2CIndian%20Terrain%2CJack%20%26%20Jones%2CKETCH%2CKISAH%20PLUS%2CKotty%2CLA%20MILANO%2CLOCOMOTIVE%2CLUX%20VENUS%2CLee%2CLeotude%2CLevis%2CLux%20Cottswool%2CMASCLN%20SASSAFRAS%2CManiac%2CMarks%20%26%20Spencer%2CNEVER%20NEUD%2CNOBERO%2CPAUL%20STREET%2CPepe%20Jeans%2CPowerlook%2CRARE%20RABBIT%2CRIGS%20AND%20RAGS%2CRaymond%2CRed%20Tape%2CSHRESTHA%20BY%20VASTRAMAY%2CSILISOUL%2CSLOWLORIS%2CSPYKAR%2CSTI%2CSWAGG%20INDIA%2CSanwara%2CSee%20Designs%2CSnitch%2CStyle%20Quotient%2CStyli%2CSweet%20Dreams%2CTHE%20BEAR%20HOUSE%2CTHE%20BEETEL%20HOUSE%2CThe%20Indian%20Garage%20Co%2CThe%20Indian%20Garage%20Co.%20X%20Luxe%2CThe%20Veshti%20Company%2CThomas%20Scott%2CTurtle%2CU.S.%20Polo%20Assn.%2CU.S.%20Polo%20Assn.%20Denim%20Co.%2CU.S.%20Polo%20Assn.%20Tailored%2CURBAN%20SCOTTISH%2CUrbano%20Fashion%2CUrbano%20Plus%2CVALEN%20CLUB%2CVASTRADO%2CVASTRAMAY%20PLUS%2CVEIRDO%2CVeBNoR%2CWOOSTRO%2CWrangler%2Cbummer%3A%3ACategories%3ACo-Ords%2CJackets%2CJeans%2CShirts%2CShorts%2CTrack%20Pants%2CTrousers%2CTshirts&rawQuery=mens%20apparel&rf=Discount%20Range%3A75.0_100.0_75.0%20TO%20100.0",
+                "text": "",
+                "matchedKeywords": [
+                    "company"
+                ],
+                "_id": "6839940e11154c3d041bcd9c"
+            },
+            {
+                "url": "https://www.myntra.com/grooming?f=Brand%3ABeardhood%2CBombay%20Shaving%20Company%2CFoolzy%2CTHE%20MAN%20COMPANY%2CUstraa&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0",
+                "text": "",
+                "matchedKeywords": [
+                    "company"
+                ],
+                "_id": "6839940e11154c3d041bcd9d"
+            },
+            {
+                "url": "https://careers.myntra.com/",
+                "text": "Careers",
+                "matchedKeywords": [
+                    "careers",
+                    "/careers"
+                ],
+                "_id": "6839940e11154c3d041bcd9e"
+            },
+            {
+                "url": "https://www.myntra.com/faqs",
+                "text": "FAQ",
+                "matchedKeywords": [
+                    "faq"
+                ],
+                "_id": "6839940e11154c3d041bcd9f"
+            },
+            {
+                "url": "https://www.myntra.com/termsofuse",
+                "text": "Terms Of Use",
+                "matchedKeywords": [
+                    "terms"
+                ],
+                "_id": "6839940e11154c3d041bcda0"
+            },
+            {
+                "url": "https://www.myntra.com/faqs#shipping",
+                "text": "Shipping",
+                "matchedKeywords": [
+                    "faq"
+                ],
+                "_id": "6839940e11154c3d041bcda1"
+            },
+            {
+                "url": "https://www.myntra.com/faqs#cancel",
+                "text": "Cancellation",
+                "matchedKeywords": [
+                    "faq"
+                ],
+                "_id": "6839940e11154c3d041bcda2"
+            },
+            {
+                "url": "https://www.myntra.com/faqs#returns",
+                "text": "Returns",
+                "matchedKeywords": [
+                    "faq"
+                ],
+                "_id": "6839940e11154c3d041bcda3"
+            },
+            {
+                "url": "https://www.myntra.com/privacypolicy",
+                "text": "Privacy policy",
+                "matchedKeywords": [
+                    "privacy",
+                    "policy",
+                    "/privacy"
+                ],
+                "_id": "6839940e11154c3d041bcda4"
+            },
+            {
+                "url": "https://www.flipkart.com/",
+                "text": "A Flipkart company",
+                "matchedKeywords": [
+                    "company"
+                ],
+                "_id": "6839940e11154c3d041bcda5"
+            },
+            {
+                "url": "https://www.myntra.com/contactus",
+                "text": "Contact Us",
+                "matchedKeywords": [
+                    "contact",
+                    "contact us",
+                    "contactus",
+                    "/contact"
+                ],
+                "_id": "6839941211154c3d041bcdc0"
+            },
+            {
+                "url": "https://www.myntra.com/my/address",
+                "text": "Saved Addresses",
+                "matchedKeywords": [
+                    "address"
+                ],
+                "_id": "6839941211154c3d041bcdc1"
+            },
+            {
+                "url": "https://www.myntra.com/mens-apparel?f=Brand%3AADRO%2CAUSK%2CBEAT%20LONDON%20by%20PEPE%20JEANS%2CBULLMER%2CBeing%20Human%2CBene%20Kleed%2CBene%20Kleed%20Plus%2CBewakoof%2CBewakoof%20AIR%2CBewakoof%20Heavy%20Duty%2CBewakoof%20Plus%2CBeyoung%2CBushirt%2CCampus%20Sutra%2CCrazybee%20Tshirt%2CCrazymonk%2CDENIMLOOK%2CDENNISON%2CDEVOILER%2CDennis%20Lingo%2CDollar%2CDollar%20Ultra%2CEnglish%20Navy%2CFBAR%2CFUBAR%2CFlying%20Machine%2CForce%20NXT%2CFree%20Authority%2CFreehand%20by%20The%20Indian%20Garage%20Co%2CGO%20DEVIL%2CGRIFFEL%2CHIGHLANDER%2CHOUSE%20OF%20MAHNOTS%2CHancock%2CHardsoda%20by%20The%20Indian%20Garage%20Co%2CHigh%20Star%2CHubberholme%2CINFERNO%2CIVOC%2CIVOC%20Plus%2CInddus%2CIndian%20Terrain%2CJack%20%26%20Jones%2CKETCH%2CKISAH%20PLUS%2CKotty%2CLA%20MILANO%2CLOCOMOTIVE%2CLUX%20VENUS%2CLee%2CLeotude%2CLevis%2CLux%20Cottswool%2CMASCLN%20SASSAFRAS%2CManiac%2CMarks%20%26%20Spencer%2CNEVER%20NEUD%2CNOBERO%2CPAUL%20STREET%2CPepe%20Jeans%2CPowerlook%2CRARE%20RABBIT%2CRIGS%20AND%20RAGS%2CRaymond%2CRed%20Tape%2CSHRESTHA%20BY%20VASTRAMAY%2CSILISOUL%2CSLOWLORIS%2CSPYKAR%2CSTI%2CSWAGG%20INDIA%2CSanwara%2CSee%20Designs%2CSnitch%2CStyle%20Quotient%2CStyli%2CSweet%20Dreams%2CTHE%20BEAR%20HOUSE%2CTHE%20BEETEL%20HOUSE%2CThe%20Indian%20Garage%20Co%2CThe%20Indian%20Garage%20Co.%20X%20Luxe%2CThe%20Veshti%20Company%2CThomas%20Scott%2CTurtle%2CU.S.%20Polo%20Assn.%2CU.S.%20Polo%20Assn.%20Denim%20Co.%2CU.S.%20Polo%20Assn.%20Tailored%2CURBAN%20SCOTTISH%2CUrbano%20Fashion%2CUrbano%20Plus%2CVALEN%20CLUB%2CVASTRADO%2CVASTRAMAY%20PLUS%2CVEIRDO%2CVeBNoR%2CWOOSTRO%2CWrangler%2Cbummer%3A%3ACategories%3ACo-Ords%2CJackets%2CJeans%2CShirts%2CShorts%2CTrack%20Pants%2CTrousers%2CTshirts&rawQuery=mens%20apparel&rf=Discount%20Range%3A75.0_100.0_75.0%20TO%20100.0",
+                "text": "",
+                "matchedKeywords": [
+                    "company"
+                ],
+                "_id": "6839941211154c3d041bcdc2"
+            },
+            {
+                "url": "https://www.myntra.com/grooming?f=Brand%3ABeardhood%2CBombay%20Shaving%20Company%2CFoolzy%2CTHE%20MAN%20COMPANY%2CUstraa&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0",
+                "text": "",
+                "matchedKeywords": [
+                    "company"
+                ],
+                "_id": "6839941211154c3d041bcdc3"
+            },
+            {
+                "url": "https://careers.myntra.com/",
+                "text": "Careers",
+                "matchedKeywords": [
+                    "careers",
+                    "/careers"
+                ],
+                "_id": "6839941211154c3d041bcdc4"
+            },
+            {
+                "url": "https://www.myntra.com/faqs",
+                "text": "FAQ",
+                "matchedKeywords": [
+                    "faq"
+                ],
+                "_id": "6839941211154c3d041bcdc5"
+            },
+            {
+                "url": "https://www.myntra.com/termsofuse",
+                "text": "Terms Of Use",
+                "matchedKeywords": [
+                    "terms"
+                ],
+                "_id": "6839941211154c3d041bcdc6"
+            },
+            {
+                "url": "https://www.myntra.com/faqs#shipping",
+                "text": "Shipping",
+                "matchedKeywords": [
+                    "faq"
+                ],
+                "_id": "6839941211154c3d041bcdc7"
+            },
+            {
+                "url": "https://www.myntra.com/faqs#cancel",
+                "text": "Cancellation",
+                "matchedKeywords": [
+                    "faq"
+                ],
+                "_id": "6839941211154c3d041bcdc8"
+            },
+            {
+                "url": "https://www.myntra.com/faqs#returns",
+                "text": "Returns",
+                "matchedKeywords": [
+                    "faq"
+                ],
+                "_id": "6839941211154c3d041bcdc9"
+            },
+            {
+                "url": "https://www.myntra.com/privacypolicy",
+                "text": "Privacy policy",
+                "matchedKeywords": [
+                    "privacy",
+                    "policy",
+                    "/privacy"
+                ],
+                "_id": "6839941211154c3d041bcdca"
+            },
+            {
+                "url": "https://www.flipkart.com/",
+                "text": "A Flipkart company",
+                "matchedKeywords": [
+                    "company"
+                ],
+                "_id": "6839941211154c3d041bcdcb"
+            }
+        ],
+        "savedAt": "2025-05-30T11:18:42.705Z",
+        "_id": "6839940a11154c3d041bcd7f"
+    }
 ]
